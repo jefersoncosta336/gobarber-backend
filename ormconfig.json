@@ -9,9 +9,9 @@
 	],
 	"database": "gostack_gobarber",
 	"migrations": [
-		"./src/share/infra/typeorm/migrations/*.ts"
+		"./src/shared/infra/typeorm/migrations/*.ts"
 	],
 	"cli": {
-		"migrationsDir": "./src/share/infra/typeorm/migrations"
+		"migrationsDir": "./src/shared/infra/typeorm/migrations"
 	}
 }
